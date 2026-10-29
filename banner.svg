@@ -284,30 +284,34 @@
           fill="none" stroke="url(#waterShine)"
           stroke-width="5" stroke-linecap="round"/>
 
-    <!-- Palm trees around the oasis -->
-    <g class="palm-sway" fill="none" stroke="#382536"
-       stroke-linecap="round" stroke-linejoin="round">
-      <path d="M210 458Q221 397 206 343" stroke-width="12"/>
-      <path d="M207 350Q168 317 137 328
-               M208 350Q181 305 160 288
-               M208 350Q211 302 229 277
-               M208 350Q246 311 275 310
-               M208 350Q257 342 284 363
-               M207 350Q175 343 151 364"
-            stroke-width="8"/>
-    </g>
+    <!-- Palme links -->
+<g class="palm-sway" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M210 458Q221 397 206 343"
+        stroke="#604438" stroke-width="12"/>
+  <g stroke="#4f8053" stroke-width="12">
+    <path d="M207 350Q168 317 137 328
+             M208 350Q181 305 160 288
+             M208 350Q211 302 229 277
+             M208 350Q246 311 275 310
+             M208 350Q257 342 284 363
+             M207 350Q175 343 151 364"/>
+  </g>
+</g>
 
-    <g class="palm-sway-two" fill="none" stroke="#382536"
-       stroke-linecap="round" stroke-linejoin="round">
-      <path d="M1240 469Q1228 407 1245 350" stroke-width="13"/>
-      <path d="M1244 357Q1207 325 1174 337
-               M1244 357Q1219 309 1196 292
-               M1244 357Q1247 305 1267 281
-               M1244 357Q1285 318 1314 320
-               M1244 357Q1292 350 1320 372
-               M1244 357Q1212 350 1187 374"
-            stroke-width="8"/>
-    </g>
+<!-- Palme rechts -->
+<g class="palm-sway-two" fill="none"
+   stroke-linecap="round" stroke-linejoin="round">
+  <path d="M1240 469Q1228 407 1245 350"
+        stroke="#604438" stroke-width="13"/>
+  <g stroke="#4f8053" stroke-width="12">
+    <path d="M1244 357Q1207 325 1174 337
+             M1244 357Q1219 309 1196 292
+             M1244 357Q1247 305 1267 281
+             M1244 357Q1285 318 1314 320
+             M1244 357Q1292 350 1320 372
+             M1244 357Q1212 350 1187 374"/>
+  </g>
+</g>
 
     <!-- Kleine Oasenpflanzen -->
     <g fill="none" stroke="#273d3d" stroke-linecap="round">
